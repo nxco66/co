@@ -1,0 +1,47 @@
+/*============================== MEMBERSHIP SECTION ==============================*/
+.membership{
+    margin: 3rem 0 0 0;
+
+    &__container{
+        display: grid;
+        width: 100%;
+        row-gap: 1.5rem;
+        justify-items: center;
+    }
+
+    &__img{
+        width: 17rem;
+    }
+}
+
+
+.newsletter{
+    display: flex;
+    width: 16rem;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        text-align: center;
+        font-weight: var(--semi-bold);
+        text-transform: uppercase;
+        line-height: 1.5em;
+    }
+
+    input{
+        width: 100%;
+        margin-top: 2rem;
+        border: none;
+        border-bottom: 1px solid #ebeaea;
+    }
+}
+
+.news-btn{
+    margin-top: 1.5rem;
+    padding: .5em;
+    letter-spacing: .1em;
+    color: #FFF;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: var(--body-font);
+}

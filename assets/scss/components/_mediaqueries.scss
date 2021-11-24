@@ -1,0 +1,214 @@
+/*============================== MEDIA QUERIES ==============================*/
+@media screen and (min-width: 768px){
+    
+    .hidden-btn{
+        display: block;
+    }
+
+    .btn{
+        color: var(--btn-clr);
+    }
+
+    .home__img,
+    .shopping__img{
+        width: 47em;
+    }
+
+    .product__img,
+    .membership__img{
+        width: 42em;
+    }
+
+    .product__name,
+    .shopping__title{
+        width: 100%;
+        line-height: 1.5em;
+        letter-spacing: .09em;
+        font-size: 1.2em;
+    }
+
+    .product__price{
+        font-size: 1.2em;
+        letter-spacing: .09em;
+    }
+
+    .newsletter{
+        width: 42em;
+    }
+}
+@media screen and (min-width: 1024px){
+
+
+    .nav__link:hover{
+        color: #000;
+        transition: all .2s ;
+    }
+        
+    .home{
+        margin-top: 5rem 0 0 0;
+        }
+
+    .hidden{
+        display: block;
+        }
+    .home__container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "home-first home-second" ;
+        }
+
+    .home-first{
+        justify-self: center;
+        align-self: center;
+        grid-area: home-first;
+        }
+
+    .home-second{
+        align-self: center;
+        justify-self: center;
+        grid-area: home-second;
+        }
+    .h-first{
+        width: 20em;
+        }
+
+    .h-second{
+        width: 30em;
+        }
+    .product__container{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+          "first-product second-product"
+          "third-product third-product"; 
+      }
+
+    .first-product {
+        justify-self: center; 
+        align-self: center; 
+        grid-area: first-product; 
+      }
+
+    .third-product {
+        justify-self: center; 
+        align-self: center; 
+        grid-area: third-product; 
+      }
+
+    .second-product {
+        justify-self: center; 
+        align-self: center; 
+        grid-area: second-product; 
+      }
+
+    .product__img{
+        width: 26em;
+    }
+
+    .product__info{
+        width: 26em;
+    }
+
+    .shopping__container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 0.7fr 1.3fr 1fr; 
+        grid-template-areas: 
+          "s-first s-first s-second s-second"
+          "s-third s-third s-third s-third"
+          "s-forth s-forth s-fifth s-fifth"; 
+      }
+    .s-first {
+        justify-self: center;
+        align-self: center; 
+        grid-area: s-first;
+     }
+    .s-second {
+        grid-area: s-second;
+        justify-self: center;
+        align-self: center; 
+    }
+    .s-third {
+        grid-area: s-third;
+        justify-self: center;
+        align-self: center; 
+        }
+    .s-third img{
+        width: 60em;
+    }
+    .s-forth {
+        grid-area: s-forth;
+        justify-self: center;
+        align-self: center; 
+        }
+    .s-fifth {
+        grid-area: s-fifth;
+        justify-self: center;
+        align-self: center; 
+        }
+      .shopping__img{
+          width: 20em;
+      }
+
+
+    .membership__img{
+        width: 50em;
+    }
+
+    .newsletter{
+        width: 50em;
+    }
+
+    .newsletter p{
+        font-size: 1.5em;
+    }
+
+    .newsletter input{
+        font-size: 1.2em;
+    }
+
+    .btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+    .btn-grad {
+       margin: 2em;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+    
+     .btn-grad:hover {
+       background-position: right center;
+       color: #fff;
+       text-decoration: none;
+    }
+
+    .newsletter button{
+        font-size: 1.2em;
+    }
+
+    .footer__data{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .footer__link{
+        width: 100%;
+        margin: 0;
+        font-size: .938em;
+    }
+
+    .footer__link:hover{
+        color: #000;
+        transition: all .2s;
+    }
+}

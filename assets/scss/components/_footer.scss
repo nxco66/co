@@ -1,0 +1,18 @@
+/*============================== FOOTER SECTION ==============================*/
+.footer{
+    border-top: 1px solid #ebeaea;
+    margin: 4rem 0 0 0;
+
+    &__data{
+        margin: 2rem 0;
+    }
+
+    &__item{
+        margin: 1.5rem 1rem;
+    }
+
+    &__link{
+        text-transform: uppercase;
+        color: var(--btn-clr);
+    }
+}
